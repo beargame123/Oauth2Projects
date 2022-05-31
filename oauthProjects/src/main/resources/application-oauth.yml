@@ -7,8 +7,8 @@ spring:
       client:
         registration:
           gogle:
-            clientId: 416175443078-k3805oquad5oun8m99u3l9990j09lcr5.apps.googleusercontent.com
-            clientSecret: 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
+            clientId: oauth Id
+            clientSecret: oauth pw
             scope: profile,email
   profiles:
     include: oauth
