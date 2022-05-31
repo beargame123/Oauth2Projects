@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          gogle:
+            clientId: 416175443078-k3805oquad5oun8m99u3l9990j09lcr5.apps.googleusercontent.com
+            clientSecret: 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
+            scope: profile,email
+  profiles:
+    include: oauth
+  datasource:
+    url: jdbc:h2:mem:Oauth
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+
